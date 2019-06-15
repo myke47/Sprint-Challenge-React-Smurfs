@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
+
 class SmurfForm extends Component {
   constructor(props) {
     super(props);
@@ -25,7 +26,7 @@ class SmurfForm extends Component {
       age: '',
       height: ''
     });
-    
+
     axios
     .post("http://localhost:3333/smurfs", {
       name,
