@@ -7,6 +7,7 @@ import axios from 'axios';
 import { BrowserRouter as Route, NavLink } from 'react-router-dom';
 import NavBar from './components/NavBar';
 
+
 class App extends Component {
   constructor(props) {
     super(props);
