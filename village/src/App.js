@@ -4,7 +4,8 @@ import './App.css';
 import SmurfForm from './components/SmurfForm';
 import Smurfs from './components/Smurfs';
 import axios from 'axios';
-import { BrowserRouter as Nav, Router, Link, NavLink, Route } from 'react-router-dom';
+import { BrowserRouter as Route, NavLink } from 'react-router-dom';
+import NavBar from './components/NavBar';
 
 class App extends Component {
   constructor(props) {
@@ -39,25 +40,7 @@ class App extends Component {
       <div className="App">
         <div className="header">
 
-          <nav className="navbar">
-
-            <NavLink to="/smurf-form">
-            Smurf Form
-            </NavLink>
-
-
-            <NavLink to="/">
-            Home
-            </NavLink>
-
-
-            <NavLink to="/smurf">
-            A Smurf
-            </NavLink>
-
-
-          </nav>
-
+          <NavBar />
 
         </div>
         
