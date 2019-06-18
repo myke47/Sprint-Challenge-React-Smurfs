@@ -52,20 +52,12 @@ class App extends Component {
         <Smurfs
           smurfs={this.state.smurfs} />
 
-        <Route 
+        {/* <Route 
          exact path="/" 
          render={(props) =>
           <Smurfs {...props}
           smurfs={this.state.smurfs} />
-        } />
-
-        {/* <Route path="/smurf-form"
-        render={(props) => (
-          <SmurfForm 
-          {...props}
-          updateList={this.handleUpdateList} />
-        )}
-        /> */}
+        } /> */}
         
       </div>
     );
