@@ -49,6 +49,9 @@ class App extends Component {
         updateList={this.handleUpdateList}
         />
 
+        <Smurfs
+          smurfs={this.state.smurfs} />
+
         <Route 
          exact path="/" 
          render={(props) =>
